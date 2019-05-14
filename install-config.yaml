@@ -1,0 +1,17 @@
+apiVersion: v1
+baseDomain: cmbu.local
+controlPlane:
+  name: master
+  replicas: 3
+metadata:
+  name: openshift
+platform:
+  vsphere:
+    vcenter: wdcvc01.cmbu.local
+    username: mcclanahanc@cmbu.local
+    password: Mazie@123
+    datacenter: wdcdc01
+    defaultDatastore: sc2c01vsan01
+pullSecret: '{"auths":{"cloud.openshift.com":{"auth":"b3BlbnNoaWZ0LXJlbGVhc2UtZGV2K21jY2xhbmNfcmgxbGJwb3g0cmp2anJhc25weW1zN213emFxcHk6TkVFUk8xOVNYWUYwUENMMTFCMFM5QUJIVk5HWlNJUUw0U0FSRUc5UDkyNUhYOTZBRFJKVllNTl$
+sshKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDB5A+k1mtutnuG/1zY7zMWrgmQwieB5BhZ4YbvgWX64lYlp+M4enwNgRDi1IgBHz1MbMLY7HJFXPi8cSQ+GZDJc3mc2KsscKohs4elssJeC9SmcuraeZu6lN5YDY63UwVwpWUROElY1B/EwrVBvQAGY5Z1wk77XbH$
+
